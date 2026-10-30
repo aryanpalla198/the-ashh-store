@@ -2,6 +2,12 @@
 ### Premium Indian Streetwear & Pop-Culture Fashion Apparel E-Commerce Platform
 > Built to match the exact aesthetic, vibrancy, and functionality of **The Souled Store** (T-shirts, oversized drops, winter hoodies, cargo joggers, and official superhero & anime merchandise).
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-github.io-E11B23?style=for-the-badge&logo=github)](https://aryanpalla198.github.io/the-ashh-store/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-18181B?style=for-the-badge&logo=github)](https://github.com/aryanpalla198/the-ashh-store)
+
+- **🌐 Live GitHub Pages Store:** [https://aryanpalla198.github.io/the-ashh-store/](https://aryanpalla198.github.io/the-ashh-store/)
+- **📦 GitHub Repository:** [https://github.com/aryanpalla198/the-ashh-store](https://github.com/aryanpalla198/the-ashh-store)
+
 ---
 
 ## 🎨 Brand Identity & Logo

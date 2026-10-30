@@ -1,7 +1,16 @@
 /** @type {import('next').NextConfig} */
+const isExport = process.env.GITHUB_PAGES === 'true';
+
 const nextConfig = {
   reactStrictMode: true,
+  ...(isExport ? {
+    output: 'export',
+    basePath: '/the-ashh-store',
+    trailingSlash: true,
+    images: { unoptimized: true }
+  } : {}),
   images: {
+    unoptimized: isExport,
     remotePatterns: [
       {
         protocol: 'https',

@@ -39,10 +39,21 @@ export default function AboutPage() {
             Born out of love for superhero comic books, high-octane anime, gaming culture, and premium Indian streetwear.
           </p>
 
-          {/* Quick GitHub Action Pill */}
+          {/* Quick GitHub Action Pills */}
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
             <a
-              href="https://github.com/the-ashh-store/the-ashh-store"
+              href="https://aryanpalla198.github.io/the-ashh-store/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#E11B23] hover:bg-red-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full shadow-md transition-all hover:scale-105"
+            >
+              <Sparkles className="w-4 h-4 fill-white" />
+              <span>Live Website (github.io)</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+
+            <a
+              href="https://github.com/aryanpalla198/the-ashh-store"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#18181B] hover:bg-black text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded-full shadow-md transition-all hover:scale-105"
@@ -54,7 +65,7 @@ export default function AboutPage() {
 
             <div className="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold px-3.5 py-2 rounded-full">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>CI/CD Workflow: Passing</span>
+              <span>GitHub Pages: Active</span>
             </div>
           </div>
         </div>
@@ -172,7 +183,7 @@ export default function AboutPage() {
             </div>
 
             <a
-              href="https://github.com/the-ashh-store/the-ashh-store"
+              href="https://github.com/aryanpalla198/the-ashh-store"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#E11B23] hover:bg-red-700 text-white text-xs font-black uppercase px-4 py-2 rounded-xl transition"
